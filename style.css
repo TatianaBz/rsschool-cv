@@ -1,0 +1,298 @@
+*,
+html {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  background-color: #f8f8f8;
+  font-family: "Open Sans", sans-serif;
+  color: #636363;
+  padding: 0;
+  margin: 0;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+/*header*/
+nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #636363;
+}
+nav ul {
+  padding: 20px 40px 20px 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  padding: 0 15px;
+}
+nav a {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  white-space: pre;
+}
+nav a:focus,
+nav a:hover {
+  font-style: italic;
+  font-weight: 700;
+  color: #e0e0e0;
+}
+
+nav a:active {
+  font-style: italic;
+  font-weight: 800;
+  color: #e0e0e0;
+}
+@media (max-width: 1279px) {
+  nav ul {
+    max-width: 80%;
+    padding: 10px;
+  }
+  nav a {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  nav ul {
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+  nav a {
+    font-size: 12px;
+  }
+}
+.header-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 40px;
+  width: 100%;
+}
+.person {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.person__name {
+  margin-left: 5%;
+}
+.person__name p {
+  font-size: 16px;
+  margin-top: 7px;
+  text-align: left;
+}
+.person img {
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin-left: 3%;
+}
+h1 {
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0em;
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 768px) {
+  .person {
+    flex-wrap: wrap;
+  }
+  .person__name {
+    width: 100%;
+  }
+}
+/*main*/
+section {
+  width: 100%;
+  padding: 5px 30px 10px 30px;
+  border-bottom: 1px solid #636363;
+}
+.section-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: calc(3% + 5px);
+}
+dl,
+ul {
+  width: 35%;
+}
+ul {
+  padding-left: 18px;
+}
+@media (max-width: 1200px) {
+  dl,
+  ul {
+    width: 60%;
+  }
+}
+@media (max-width: 768px) {
+  dl,
+  ul {
+    width: 90%;
+  }
+}
+/*-*/
+.wrapper {
+  padding: 25px 0 25px 0;
+}
+.position,
+.skils,
+.lang {
+  width: auto;
+  background-color: #eeeeee;
+}
+pre {
+  font-size: 16px;
+  width: 100%;
+  margin: 0;
+}
+h2 {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+h3 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+h4 {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 15px 0 0 0;
+  padding: 0;
+}
+p,
+span,
+li {
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 0;
+}
+p {
+  margin: 3px 0 0 0;
+}
+li {
+  margin: 3px 0 0 0;
+}
+
+dt,
+dd {
+  display: inline-block;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 0;
+  margin: 3px 0 0 0;
+}
+dt {
+  font-weight: 700;
+  width: 30%;
+}
+dd,
+li,
+a {
+  font-style: italic;
+  text-decoration: none;
+  color: #676767;
+}
+main a:focus,
+main a:hover {
+  font-style: italic;
+  font-weight: 700;
+}
+
+main a:active {
+  font-style: italic;
+  font-weight: 800;
+}
+.task {
+  margin-left: 20px;
+}
+span {
+  font-size: 18px;
+  margin-left: 20px;
+}
+/*footer*/
+footer {
+  padding: 15px;
+  background-color: #636363;
+}
+.footer-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer-img img {
+  width: 80px;
+  height: auto;
+}
+
+footer a,
+footer p {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  width: auto;
+  margin: 0;
+}
+footer a:focus,
+footer a:hover {
+  font-style: itaic;
+  font-weight: 700;
+  color: #e0e0e0;
+}
+footer a:active {
+  font-style: italic;
+  font-weight: 800;
+  color: #e0e0e0;
+}
+@media (max-width: 768px) {
+  footer a,
+  footer p {
+    font-size: 12px;
+  }
+  .eyars {
+    order: 1;
+    width: 50%;
+    text-align: end;
+  }
+  .cours {
+    order: 2;
+    text-align: center;
+  }
+  .footer-img {
+    width: 50%;
+  }
+}
