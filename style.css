@@ -111,6 +111,7 @@ h1 {
     width: 100%;
   }
 }
+
 /*main*/
 section {
   width: 100%;
@@ -241,6 +242,7 @@ span {
   font-size: 18px;
   margin-left: 20px;
 }
+
 /*footer*/
 footer {
   padding: 15px;
@@ -295,4 +297,5 @@ footer a:active {
   .footer-img {
     width: 50%;
   }
+  
 }
