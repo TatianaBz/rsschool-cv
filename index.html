@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CV</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#pat1">Contact</a></li>
+        <li><a href="#pat2">About Me</a></li>
+        <li><a href="#pat3">Education</a></li>
+        <li><a href="#pat4">Skills</a></li>
+        <li><a href="#pat5">Code example</a></li>
+        <li><a href="#pat6">Languages</a></li>
+      </ul>
+    </nav>
+    <div class="header-wrapper">
+      <div class="person">
+        <img class="person__img" src="foto.jpg" alt="Bzhasso Tatiana">
+        <div class="person__name">
+          <h1>Bzhasso Tatiana</h1>
+          <p>by Novosibirsk</p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="contact">
+      <div class="section-wrapper">
+        <h2 id="pat1">Contact</h2>
+        <dl>
+          <div>
+            <dt>Phone:</dt>
+            <dd>
+              <a href="tel:+79095338495">+7(909)&#8209;533&#8209;84&#8209;95</a>
+            </dd>
+          </div>
+          <div>
+            <dt>E-mail: </dt>
+            <dd>
+              <a href="E-mail:bztn@yandex.ru">bztn@yandex.ru</a>
+            </dd>
+          </div>
+
+          <div>
+            <dt>GitHub: </dt>
+            <dd>
+              <a href="https://github.com/TatianaBz">Tatianabz</a>
+            </dd>
+          </div>
+          <div>
+            <dt>VK:</dt>
+            <dd>
+              <a href="vk.com/bzacco">bzacco</a>
+            </dd>
+          </div>
+          <div>
+            <dt>Skype:</dt>
+            <dd>
+              <a href="skype.com/bzaccotatiana">bzaccotatiana</a>
+            </dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+    <section class="position">
+      <div class="section-wrapper">
+        <h2 id="pat2">About Me</h2>
+        <p>I believe that a person should study at any age! Today, the Internet opens up such an opportunity for us.</p>
+        <p>
+          Web development is one of the most popular specialties.</p>
+        <p>
+          Therefore, I try to understand all its subtleties. I hope I can try myself as a Frontend Developer!</p>
+        <h3>Priorities</h3>
+        <ul>
+          <li>be focused</li>
+          <li>find important information</li>
+          <li>learn fast</li>
+          <li>share knowledge with the team</li>
+        </ul>
+      </div>
+    </section>
+    <section class="proffi">
+      <div class="section-wrapper">
+        <h2 id="pat3">Education</h2>
+        <h3>Basic education</h3>
+        <p>Professional retraining program by Novosibirsk State Technical University (NETI)</p>
+
+        <h3>Courses and favorite sites</h3>
+        <ul>
+          <li><a href="https://htmlacademy.ru/">HTML Academy</a></li>
+          <li><a href="http://code.mu/">code.mu</a></li>
+          <li><a href="frontend-science.com">frontend-science.com</a></li>
+          <li><a href="https://glo.academy/">Glo Academy</a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="skils">
+<div class="section-wrapper">
+  <h2 id="pat4">Skills</h2>
+  <ul>
+    <li>HTML</li>
+    <li>CSS (SCSS, BEM)</li>
+    <li>JavaScript (ES6+, DOM)</li>
+    <li>Git/GitHub</li>
+    <li>Figma, Zeplin, Photoshop</li>
+  </ul>
+</div>
+    </section>
+    <section class="code">
+      <div class="section-wrapper">
+        <h2 id="pat5">Code example</h2>
+        <h3>JavaScript:</h3>
+        <div class="task">
+          <h4>Task</h4>
+          <p>Coding in function threeInOne. function accept 1 parameters arr, it's a 1D number array. Your task is to
+            merge
+            each of the 3 elements into 1 elements (sum value) and return the result.</p>
+          <p>Note1: You should not modify the original array.</p>
+          <p>Note2: Because this is a beginner Kata, and due to the author's mercy ;-), so you do not have to verify the
+            validity of the parameter, and do not worry about the number of elements of the array is not a multiple of
+            3.
+          </p>
+          <h4>Code</h4>
+          <pre><code>
+  function threeInOne(arr) {
+  let arrNew = arr.slice();
+  let i = 0;
+  let arr1 = [];
+  while (arrNew.length &lt; 0) {
+  arr1[i] = arrNew.splice(0,3).
+  reduce((prev, el) =&lt; {return prev + el}
+  , 0);
+  i++;
+  }
+  return arr1;
+  }
+  console.log (
+    threeInOne( [1,3,5,2]));
+    </code></pre>
+        </div>
+        <h3>Html, Css:</h3>
+        <span>sait: </span>
+        <a href="http://partfols.ru/">partfols.ru</a>
+      </div>
+    </section>
+    <section class="lang">
+      <div class="section-wrapper">
+        <h2 id="pat6">Languages</h2>
+        <ul>
+          <li>Russian - native speaker.</li>
+          <li>English – in process…</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-main">
+      <a class="footer-img" href="https://rs.school/js/">
+        <img src="https://rs.school/images/rs_school_js.svg" alt="Курс «JavaScript/Front-end»">
+      </a>
+      <p class="cours"><a href="https://github.com/TatianaBz">
+          Исполнитель Бжассо Т. Н.</a></p>
+      <p class="eyars">2022г</p>
+    </div>
+  </footer>
+</body>
+</html>
