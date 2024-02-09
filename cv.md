@@ -60,15 +60,13 @@ Note2: Because this is a beginner Kata, and due to the author's mercy ;-), so yo
 
 ```  function threeInOne(arr) {
       let arrNew = arr.slice();
-      let i = 0;
-      let arr1 = [];
+      let i = 0;  let arr1 = [];
       while (arrNew.length > 0) {
         arr1[i] = arrNew.splice(0,3).reduce((prev, el) => {
           return prev + el
         }, 0);
         i++;
-      }
-      return arr1;
+      }   return arr1;
     }
     console.log (threeInOne( [1,3,5,2,4,6,7,7,7]));
 ```
