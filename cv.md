@@ -58,7 +58,8 @@ Note2: Because this is a beginner Kata, and due to the author's mercy ;-), so yo
 
 **Code**
 
-```  function threeInOne(arr) {
+```
+  function threeInOne(arr) {
       let arrNew = arr.slice();
       let i = 0;  let arr1 = [];
       while (arrNew.length > 0) {
