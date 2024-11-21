@@ -67,3 +67,6 @@ Note2: Because this is a beginner Kata, and due to the author's mercy ;-), so yo
     console.log (threeInOne( [1,3,5,2,4,6,7,7,7]));
 ```
 + HTML, CSS
+## Languages
++ Russian - native speaker.
++ English – in process…
