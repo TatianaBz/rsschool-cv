@@ -19,3 +19,14 @@ Web development is one of the most popular specialties.
 
 Therefore, I try to understand all its subtleties.
 I hope I can try myself as a Frontend Developer!
+## ## Priorities
+
++ be focused
++ find important information
++ learn fast
++ share knowledge with the team
+
++ be focused
++ find important information
++ learn fast
++ share knowledge with the team
