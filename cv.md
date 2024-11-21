@@ -30,3 +30,13 @@ I hope I can try myself as a Frontend Developer!
 + find important information
 + learn fast
 + share knowledge with the team
+## Skills
+
++ HTML
++ CSS (SCSS, BEM)
++ JavaScript (ES6+, DOM)
++ Git/GitHub
++ Figma, Zeplin, Photoshop
+## Education
+
+Professional retraining program by Novosibirsk State Technical University (NETI)
